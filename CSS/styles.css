@@ -19,7 +19,7 @@ body {
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    /**background-color: #3C4048;**/
+    align-items: center;
 }
 
 .name h1 {
