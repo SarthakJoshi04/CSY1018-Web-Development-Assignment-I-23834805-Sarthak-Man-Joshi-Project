@@ -22,12 +22,6 @@ body {
     align-items: center;
 }
 
-.name h1 {
-    font-family: 'Caveat', cursive;
-    font-weight: 700;
-    font-size: 46px;
-}
-
 .links ul {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
@@ -46,12 +40,15 @@ body {
 .nav-bar-list {
     display: inline;
     padding: 0;
-    margin: 46px;
+    margin: 38px;
 }
 
 .title {
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    font-size: 60px;
     padding: 0;
-    margin: 8px 0 0 18px;
+    margin: 10px 0 0 22px;
     transition: 0.2s ease-out;
 }
 
@@ -77,7 +74,7 @@ body {
 }
 
 .title a:hover {
-    color: firebrick;
+    color: #FB2576;
 }
 
 /**While Active**/

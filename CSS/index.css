@@ -1,3 +1,9 @@
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
 .content {
     font-family: 'Tenor Sans', sans-serif;
     font-weight: 400;
@@ -5,11 +11,26 @@
     font-style: italic;
 }
 
-.about h2 {
+.item1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.item2 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.aru h2 {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     font-size: 60px;
     font-style: italic;
+    text-align: center;
 }
 
 .about p {
