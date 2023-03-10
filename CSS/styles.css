@@ -34,13 +34,13 @@ body {
     text-decoration: none;
     color: darkcyan;
     padding: 8px;
-    transition: 0.2s ease-out;
+    transition: 0.2s ease-in-out;
 }
 
 .nav-bar-list {
     display: inline;
     padding: 0;
-    margin: 38px;
+    margin: 0 26px;
 }
 
 .title {
