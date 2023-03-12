@@ -13,6 +13,11 @@
     transition: 0.2s ease-in-out;
 }
 
+.gallery img {
+    height: 300px;
+    width: 200p x;
+}
+
 .des {
     color: whitesmoke;
     font-family: 'Roboto Condensed', sans-serif;
