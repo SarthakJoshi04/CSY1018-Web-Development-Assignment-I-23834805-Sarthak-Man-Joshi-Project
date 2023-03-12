@@ -11,11 +11,14 @@
     border: 1px solid whitesmoke;
     padding: 0;
     transition: 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.gallery img {
-    height: 300px;
-    width: 200p x;
+.gallery {
+    height: 800px;
+    width: auto;
 }
 
 .des {
@@ -34,8 +37,8 @@
 /**Grid View Image Gallery**/
 .img-gallery {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr;
+    grid-template-columns: 0.3fr 0.3fr 0.3fr;
     row-gap: 12px;
     column-gap: 12px;
 }
