@@ -90,7 +90,9 @@ footer {
 }
 
 .header3 {
+    font-family: 'Tenor Sans', sans-serif;
     font-size: 16px;
+    font-style: italic;
 }
 
 .qck-lnks {
@@ -102,6 +104,8 @@ footer {
 .qck-lnks a {
     text-decoration: none;
     color: whitesmoke;
+    transition: 0.2s ease-in-out;
+    margin-bottom: 6px;
 }
 
 .copyrights {
@@ -112,5 +116,13 @@ footer {
     color: darkcyan;
     font-family: 'Caveat', cursive;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 33px;
+}
+
+.sup {
+    font-size: 12px;
+}
+
+.qck-lnks a:hover {
+    color: #FB2576;
 }
