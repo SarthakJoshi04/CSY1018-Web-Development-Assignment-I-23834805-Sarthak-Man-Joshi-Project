@@ -1,3 +1,4 @@
+/**Global Styles**/
 * {
     box-sizing: border-box;
 }
@@ -15,8 +16,9 @@ body {
     font-weight: 300;
 }
 
-/**Navigation Bar**/
-.nav-bar {
+/** Styles for Navigation Bar**/
+
+.aabc {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,14 +32,14 @@ body {
     list-style-type: none;
 }
 
-.nav-bar-list a {
+.nav-list a {
     text-decoration: none;
     color: darkcyan;
     padding: 8px;
     transition: 0.2s ease-in-out;
 }
 
-.nav-bar-list {
+.nav-list {
     display: inline;
     padding: 0;
     margin: 0 26px;
@@ -52,7 +54,7 @@ body {
     transition: 0.2s ease-out;
 }
 
-.nav-bar-menu {
+.nav-menu {
     padding: 0;
 }
 
@@ -62,7 +64,8 @@ body {
 }
 
 /**While Hovering**/
-.nav-bar-list a:hover {
+
+.nav-list a:hover {
     background-color: firebrick;
     color: whitesmoke;
     border-radius: 32px;
@@ -74,11 +77,13 @@ body {
 }
 
 /**While Active**/
+
 .active a {
     border-bottom: 3px solid #FB2576;
 }
 
-/**Footer**/
+/**Styles for Footer**/
+
 footer {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
@@ -89,7 +94,7 @@ footer {
     margin: 0;
 }
 
-.header3 {
+.wasd {
     font-family: 'Tenor Sans', sans-serif;
     font-size: 16px;
     font-style: italic;
@@ -108,11 +113,11 @@ footer {
     margin-bottom: 6px;
 }
 
-.copyrights {
+.sad {
     margin: 18px 0 0 0;
 }
 
-.name {
+.huh {
     color: darkcyan;
     font-family: 'Caveat', cursive;
     font-weight: 700;
@@ -122,6 +127,8 @@ footer {
 .sup {
     font-size: 12px;
 }
+
+/**While Hovering**/
 
 .qck-lnks a:hover {
     color: #FB2576;
