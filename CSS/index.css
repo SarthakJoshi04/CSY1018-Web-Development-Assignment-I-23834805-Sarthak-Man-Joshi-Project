@@ -1,20 +1,11 @@
-.clbz {
-    font-family: 'Tenor Sans', sans-serif;
-    font-weight: 400;
-    font-size: 80px;
-    font-style: italic;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-
+/**First Section**/
 .intro {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     padding: 0;
-    margin: 0 0 32px 0;
+    margin: 0 0 30px 0;
 }
 
 .pic img {
@@ -24,39 +15,61 @@
 .content {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
-    font-size: 78px;
+    font-size: 80px;
     font-style: italic;
+    text-align: center;
 }
 
-hr {
-    width: 80%;
-    border: 2px solid whitesmoke;
-}
+/**Second Section**/
 
 .qwert {
     font-family: 'Tenor Sans', sans-serif;
     font-weight: 400;
-    font-size: 42px;
+    font-size: 40px;
     font-style: italic;
     text-align: center;
+    padding: 0;
+    margin: 30px 0;
 }
 
-.purpose {
-    margin: 32px 0 0 0;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.purpose img {
-    border: 2px solid whitesmoke;
-    border-radius: 50%;
-    margin: 12px;
-}
-
-.purpose p {
-    font-family: 'Roboto Condensed', sans-serif;
+.kon {
+    font-family: 'Tenor Sans', sans-serif;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 26px;
+    font-style: italic;
     text-align: center;
+    margin: 8px 0;
+    padding: 0;
 }
+
+.dabi {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 30px 0;
+}
+
+.gon {
+    height: auto;
+    width: 280px;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 0 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: 0.2s ease-in-out;
+}
+
+.gon img {
+    margin: 0 6px;
+}
+
+/**While Hovering**/
+.gon:hover {
+    transform: scale(1.01);
+    box-shadow: 2px 2px 6px #FB2576;
+}
+
+/**Third Section**/
