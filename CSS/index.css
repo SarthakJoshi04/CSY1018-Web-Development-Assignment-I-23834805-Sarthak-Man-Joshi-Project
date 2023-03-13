@@ -1,4 +1,4 @@
-.header1 {
+.clbz {
     font-family: 'Tenor Sans', sans-serif;
     font-weight: 400;
     font-size: 80px;
@@ -17,7 +17,7 @@
     margin: 0 0 32px 0;
 }
 
-.img img {
+.pic img {
     clip-path: circle(50%);
 }
 
@@ -33,7 +33,7 @@ hr {
     border: 2px solid whitesmoke;
 }
 
-.header2 {
+.qwert {
     font-family: 'Tenor Sans', sans-serif;
     font-weight: 400;
     font-size: 42px;

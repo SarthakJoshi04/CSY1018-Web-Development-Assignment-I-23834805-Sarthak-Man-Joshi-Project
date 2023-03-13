@@ -34,7 +34,7 @@
     text-decoration: none;
 }
 
-/**Grid View Image Gallery**/
+/**Grid for Image Gallery**/
 .img-gallery {
     display: grid;
     grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr;
@@ -43,56 +43,56 @@
     column-gap: 12px;
 }
 
-.item1 {
+.item-1 {
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 2;
 }
 
-.item2 {
+.item-2 {
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 2;
     grid-column-end: 3;
 }
 
-.item3 {
+.item-3 {
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 3;
     grid-column-end: 4;
 }
 
-.item4 {
+.item-4 {
     grid-row-start: 2;
     grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 2;
 }
 
-.item5 {
+.item-5 {
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 2;
     grid-column-end: 3;
 }
 
-.item6 {
+.item-6 {
     grid-row-start: 3;
     grid-row-end: 4;
     grid-column-start: 2;
     grid-column-end: 3;
 }
 
-.item7 {
+.item-7 {
     grid-row-start: 2;
     grid-row-end: 4;
     grid-column-start: 3;
     grid-column-end: 4;
 }
 
-/**On Hover Effects**/
+/**While Hovering**/
 .gallery:hover {
     transform: scale(1.01);
     box-shadow: 2px 1px 6px #FB2576;
