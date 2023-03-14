@@ -8,10 +8,12 @@ main {
     color: whitesmoke;
     font-weight: 400;
     font-style: italic;
-    font-size: 50px;
+    font-size: 38px;
     padding: 0;
-    margin: 0;
+    margin: 18px;
 }
+
+/**Contact Styles**/
 
 .contact-me form {
     color: whitesmoke;
@@ -23,6 +25,8 @@ main {
 textarea {
     resize: none;
 }
+
+/**Socials Styles**/
 
 .social-list {
     list-style-type: none;
@@ -50,5 +54,5 @@ textarea {
 
 .social-items a:hover {
     transform: scale(1.003);
-    text-shadow: 3px 2px 6px firebrick;
+    text-shadow: 3px 2px 6px #FB2576;
 }
