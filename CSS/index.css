@@ -98,6 +98,7 @@ button {
     margin: 0;
     padding: 0;
     text-align: center;
+    transition: 0.2s ease-in-out;
 }
 
 .namo a {
@@ -107,6 +108,7 @@ button {
     font-weight: 400;
     font-size: 18px;
     padding: 8px;
+    transition: 0.2s ease-in-out;
 }
 
 
@@ -118,4 +120,9 @@ button {
 
 .namo button:hover {
     transform: scale(1.1);
+    background-color: whitesmoke;
+}
+
+.namo a:hover {
+    color: black;
 }
