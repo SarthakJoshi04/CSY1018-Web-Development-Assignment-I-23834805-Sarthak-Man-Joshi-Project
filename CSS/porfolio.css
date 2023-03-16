@@ -1,4 +1,4 @@
-.main {
+main {
     margin: 20px;
 }
 
@@ -7,7 +7,6 @@
     text-align: center;
     font-weight: 400;
     font-size: 50px;
-    font-style: italic;
     color: whitesmoke;
     margin-bottom: 20px;
 }
@@ -24,15 +23,8 @@
 }
 
 .gallery a {
-    text-decoration: none;
-    color: whitesmoke;
-    margin: 0;
-    padding: 20px;
-}
+    object-fit: cover;
 
-.gallery img {
-    height: 100%;
-    width: 100%;
 }
 
 /**While Hovering**/
