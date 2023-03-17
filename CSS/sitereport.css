@@ -1,20 +1,134 @@
+/**Global Styles**/
 .main {
     margin: 20px;
     font-size: 20px;
 }
 
-.main p {
-    line-height: 2;
-    margin: 20px;
-}
-
-.main p::first-letter {
-    font-size: 30px;
-}
-
 .rom {
     font-family: 'Tenor Sans', sans-serif;
     font-weight: bold;
-    font-size: 33px;
+    font-size: 36px;
     letter-spacing: 9px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+hr {
+    border: 2px solid whitesmoke;
+    margin-top: 20px;
+}
+
+/**First Section**/
+.exp p {
+    line-height: 2;
+}
+
+.exp p::first-letter {
+    font-size: 30px;
+}
+
+/**Second Section**/
+.prg-pic {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.kurama {
+    border: 2px solid whitesmoke;
+    border-radius: 23px;
+    transition: 0.2s ease-in-out;
+}
+
+.kurama img {
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.glhf {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 380px 380px 380px 380px 380px;
+    column-gap: 30px;
+    row-gap: 30px;
+
+}
+
+.item-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.item-2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.item-3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.item-4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.item-5 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.item-6 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.item-7 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.item-8 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.item-9 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.item-10 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.kurama:hover {
+    box-shadow: 3px 3px 6px #FB2576;
+    transform: scale(1.01);
 }
