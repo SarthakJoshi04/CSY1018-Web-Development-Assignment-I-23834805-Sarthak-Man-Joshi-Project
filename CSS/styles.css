@@ -233,7 +233,7 @@ footer {
 }
 
 /**Responsive Nav Bar**/
-@media screen and (max-width:1012px) {
+@media screen and (max-width:1000px) {
 
     .ham,
     .toggle-menu {
